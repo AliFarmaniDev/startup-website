@@ -16,9 +16,9 @@ const router = createRouter({
     },
     //set page routes
     {
-      path: '/profile',
-      name: 'profile',
-      component: () => import('@/views/ProfileView.vue'),
+      path: '/portfolio',
+      name: 'portfolio',
+      component: () => import('@/views/PortfolioView.vue'),
     },
     {
       path: '/our-service',
