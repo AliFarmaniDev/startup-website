@@ -31,26 +31,13 @@ const toggleDropdown = () => {
         <Navigation class="hidden md:block" />
         <!-- mobile menu button -->
         <button @click="toggleDropdown" class="md:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h16m-7 6h7"
-            />
-          </svg>
+          <img src="../assets/icons/mobile.png" alt="mobile menu" />
         </button>
       </div>
     </Container>
     <!-- mobile dropdown menu -->
     <div v-if="isDropdownOpen" class="md:hidden bg-[#74C69D]">
-      <ul class="flex flex-col space-y-2 p-4">
+      <ul class="flex flex-col space-y-2 p-4 text-[#FFFFFF] font-medium">
         <li>
           <RouterLink to="/" @click="toggleDropdown">Home</RouterLink>
         </li>
