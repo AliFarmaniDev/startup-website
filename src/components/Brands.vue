@@ -15,10 +15,10 @@ import Container from '@/layout/Container.vue';
             <div class="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-5 w-full">
                 <!--logos-->
                 <img src="../assets/images/google.png" alt="google logo">
-                <img src="../assets/images/microsoft.png" alt="">
-                <img src="../assets/images/airbnb.png" alt="">
-                <img src="../assets/images/facebook.png" alt="">
-                <img src="../assets/images/spotify.png" alt="">
+                <img src="../assets/images/microsoft.png" alt="microsoft logo">
+                <img src="../assets/images/airbnb.png" alt="airbnb logo">
+                <img src="../assets/images/facebook.png" alt="facebook logo">
+                <img src="../assets/images/spotify.png" alt="spotify logo">
                 <button class="capitalize bg-[#212529] flex justify-center items-center text-[#FFFFFF] w-[170px] h-[48px] rounded-[5px] text-[18px] font-medium sm:hidden">learn more</button>
             </div>
             <div class="justify-center items-center my-6 hidden sm:flex">
