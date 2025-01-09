@@ -12,16 +12,17 @@ import Container from '@/layout/Container.vue';
                 <p class="text-wrap text-[#000000] text-[18px] font-medium text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <span class="text-center text-[#000000] text-[18px] font-medium">Lorem, ipsum.</span>
             </div>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-10 sm:justify-between w-full">
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-5 w-full">
                 <!--logos-->
                 <img src="../assets/images/google.png" alt="google logo">
                 <img src="../assets/images/microsoft.png" alt="">
                 <img src="../assets/images/airbnb.png" alt="">
+                <img src="../assets/images/facebook.png" alt="">
                 <img src="../assets/images/spotify.png" alt="">
                 <button class="capitalize bg-[#212529] flex justify-center items-center text-[#FFFFFF] w-[170px] h-[48px] rounded-[5px] text-[18px] font-medium sm:hidden">learn more</button>
             </div>
-            <div class="flex justify-center items-center my-6">
-                <button class="capitalize bg-[#212529] flex justify-center items-center text-[#FFFFFF] w-[170px] h-[48px] rounded-[5px] text-[18px] font-medium">learn more</button>
+            <div class="justify-center items-center my-6 hidden sm:flex">
+                <button class="capitalize bg-[#212529] flex justify-center items-center text-[#FFFFFF] w-[170px] h-[48px] rounded-[5px] text-[18px] font-medium sm:w-[160px] sm:h-[40px]">learn more</button>
             </div>
         </Container>
     </div>

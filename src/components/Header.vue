@@ -36,7 +36,7 @@ const toggleDropdown = () => {
       </div>
     </Container>
     <!-- mobile dropdown menu -->
-    <div v-if="isDropdownOpen" class="md:hidden bg-[#74C69D]">
+    <div v-if="isDropdownOpen" class="sm:hidden bg-[#74C69D]">
       <ul class="flex flex-col space-y-2 p-4 text-[#FFFFFF] font-medium">
         <li>
           <RouterLink to="/" @click="toggleDropdown">Home</RouterLink>
