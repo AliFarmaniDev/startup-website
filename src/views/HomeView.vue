@@ -1,5 +1,9 @@
+<script setup>
+import MainBaner from '@/components/MainBaner.vue'
+</script>
+
 <template>
   <div>
-    <h1 class="my-3 mx-3">home page</h1>
+    <MainBaner />
   </div>
 </template>
